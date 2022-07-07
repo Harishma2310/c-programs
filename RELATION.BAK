@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<conioh>
+void main()
+{
+int a=10,b=5;
+clrscr();
+if(a>b)
+printf("a is greater than b");
+else
+printf("a is lesser than equal to b");
+if(a<b)
+printf("a is lesser than b");
+else printf("a is greater than equal to b");
+if(a>=b)
+printf("a is greater than equal to b");
+else
+printf("a is lesser than equal to b");
+if(a<=b)
+printf("a is lesser than equal to b");
+else
+printf("a is greater than equal to b");
+if(a==b)
+printf("a is equal to b");
+else
+printf("a and b is not equal"):
+if(a!=b)
+printf("a is not equal to b");
+else
+printf(" a is equal to b");
+getch();
+}

@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+char *s;
+gets(s);
+clrscr();
+printf("%d",strlen(s));
+getch();
+}

@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j,n=5,x=1,p;
+clrscr();
+for(i=1;i<=n;i++);
+{
+if(p==1)
+{
+p=0;
+x=0;
+}
+else
+{
+p=1;
+x=1;
+}
+for(j=1;j<=i;j++);
+{
+if(x==1)
+{
+printf("%d",x);
+x=0;
+}
+else
+{
+printf("%d",x);
+x=1;
+}
+}
+printf("\n");
+}
+getch();
+}

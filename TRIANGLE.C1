@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i=1,n,j,s=1;
+clrscr();
+printf("enter starting value");
+scanf("%d ",&n);
+B:if(i<=n)
+{
+j=1;
+A:if(j<=i)
+{
+printf("%d \t",s++);
+j++;
+goto A;
+}
+printf("\n");
+i++;
+goto B;
+}
+getch();
+}

@@ -1,0 +1,45 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c,ch;
+clrscr();
+printf("enter a value");
+scanf("%d%d",&a,&b);
+printf("enter a choice");
+scanf("%d",&ch);
+switch(ch)
+{
+case 1:
+c=a+b;
+printf("add:%d",c);
+break;
+case 2:
+c=a-b;
+printf("sub:%d",c);
+break;
+}
+getch();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int s,e=5;
+long int tot,amt,tax,rate,qty,totqty,taxamt;
+char stockitem,name;
+clrscr();
+printf("\t \t soonapaana departmental store");
+printf("\n enter coustomer name:");
+scanf("%s",&name);
+for(s=1;s<=e;s++)
+{
+printf("\n enter stock item:");
+scanf("%s",&stockitem);
+printf("\n enter quantity:");
+scanf("%ld",&qty);
+printf("\n enter the rate:");
+scanf("%ld",&rate);
+
+amt=qty*rate;
+printf("\n total amount:%ld",amt);
+printf("\n enter a tax");
+scanf("%ld",&tax);
+taxamt=(amt*tax)/100;
+printf("\n tax amount:%ld",taxamt);
+tot=amt+taxamt;
+printf("\n total amount:%ld",tot);
+
+ getch();
+}
